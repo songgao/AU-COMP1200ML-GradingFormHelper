@@ -5,6 +5,5 @@
     "content_scripts": [{
         "matches": ["https://blackboard.auburn.edu/webct/urw/lc1127671752131.tp1174168510121/rubricGradeRubricView.dowebct*parentJsCallback=rubricCallback"],
         "js": ["jquery.min.js", "content_script.js"]
-        }],
-        "permissions": ["tabs", "https://blackboard.auburn.edu/*"]
+        }]
 }
