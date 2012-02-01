@@ -1,6 +1,6 @@
 {
     "name": "AU-COMP1200ML-GradingFormHelper",
-    "version": "0.1",
+    "version": "0.11",
     "description": "Chrome extension that helps check all full points in the grading form for COMP1200ML in Auburn University, which makes grading easier.",
     "content_scripts": [{
         "matches": [
