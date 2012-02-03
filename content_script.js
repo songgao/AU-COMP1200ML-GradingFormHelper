@@ -6,7 +6,7 @@ $(function(){
             $(trs[tr_index]).find('td:nth-child(3) > input:first').click();
         }
             setTimeout(function(){
-                trs.last().find('td:nth-child(3) > input:first').click();
+                trs.first().find('td:nth-child(3) > input:first').click();
             }, 500);
     });
     $('#link_zero_all').click(function() {
@@ -15,7 +15,7 @@ $(function(){
             $(trs[tr_index]).find('td:nth-child(2) > input:first').click();
         }
             setTimeout(function(){
-                trs.last().find('td:nth-child(2) > input:first').click();
+                trs.first().find('td:nth-child(2) > input:first').click();
             }, 500);
     });
     $('#link_wrapper').css({
