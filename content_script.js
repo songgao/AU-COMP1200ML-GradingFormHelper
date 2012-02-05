@@ -1,5 +1,5 @@
 $(function(){
-    $('body').append($('<div id="link_wrapper"><span id="link_zero_all" class="links">Zero Points</span><span id="link_check_all" class="links">Full Points</span></div>'));
+    $('body').append($('<div id="link_wrapper"><span id="link_submit" class="links">Submit</span><span id="link_zero_all" class="links">Zero Points</span><span id="link_check_all" class="links">Full Points</span></div>'));
      $('#link_check_all').click(function() {
         var trs = $('tbody > tr');
         for(var tr_index = 0; tr_index < trs.length; ++tr_index){
@@ -17,6 +17,9 @@ $(function(){
             setTimeout(function(){
                 trs.first().find('td:nth-child(2) > input:first').click();
             }, 500);
+    });
+    $('#link_submit').click(function (){
+        $('.taskbuttondiv > .task').first().click();
     });
     $('#link_wrapper').css({
         position: 'fixed',
